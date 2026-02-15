@@ -1,13 +1,29 @@
-import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, CheckCircle, Video, Home, Users, Heart, Calendar, ClipboardCheck, Stethoscope, FileText, Menu, X } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Phone, Mail, MapPin, Clock, CheckCircle, Video, Home, Users, Heart, Calendar, ClipboardCheck, Stethoscope, FileText, FileCheck, Menu, X, Globe } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { translations } from '../translations';
 
 const HomePage = () => {
-  const [language, setLanguage] = useState('en');
+  // Language detection function
+  const detectLanguage = () => {
+    const browserLang = navigator.language || navigator.userLanguage;
+    const langCode = browserLang.toLowerCase().split('-')[0];
+    
+    // Map browser language codes to our supported languages
+    if (langCode === 'sv') return 'sv';
+    if (langCode === 'sr' || browserLang.toLowerCase().includes('sr')) return 'sr';
+    return 'en'; // Default to English
+  };
+
+  const [language, setLanguage] = useState(detectLanguage);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const t = translations[language];
+
+  // Save language preference
+  useEffect(() => {
+    localStorage.setItem('preferredLanguage', language);
+  }, [language]);
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
