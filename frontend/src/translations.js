@@ -126,9 +126,10 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Private primary care and home visit medicine in Gothenburg',
+      description: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
       quickLinks: 'Quick Links',
       contactInfo: 'Contact Info',
+      location: 'Gothenburg',
       copyright: 'All rights reserved.'
     }
   },
