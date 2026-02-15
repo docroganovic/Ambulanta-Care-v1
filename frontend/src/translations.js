@@ -95,7 +95,7 @@ export const translations = {
         },
         {
           title: 'Video Consultation',
-          price: '2500 SEK',
+          price: '1500 SEK',
           duration: 'per consultation',
           description: 'Up to 60 minutes'
         },
@@ -230,7 +230,7 @@ export const translations = {
         },
         {
           title: 'Videokonsultation',
-          price: '2500 SEK',
+          price: '1500 SEK',
           duration: 'per konsultation',
           description: 'Upp till 60 minuter'
         },
@@ -359,7 +359,7 @@ export const translations = {
       items: [
         {
           title: 'Kućna poseta',
-          price: '2500 SEK',
+          price: '1500 SEK',
           duration: 'za 60 minuta',
           description: 'Klinička procena, dijagnostika i lečenje uključeni'
         },
