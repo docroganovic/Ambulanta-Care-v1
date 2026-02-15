@@ -397,7 +397,7 @@ export const translations = {
     // Footer
     footer: {
       description: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
-      quickLinks: 'Brze veze',
+      quickLinks: 'Brzi linkovi',
       contactInfo: 'Kontakt informacije',
       location: 'Geteborg',
       copyright: 'Sva prava zadržana.'
