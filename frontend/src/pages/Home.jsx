@@ -69,7 +69,7 @@ const HomePage = () => {
                 {t.nav.contact}
               </button>
               
-              {/* Language Switcher */}
+              {/* Language Switcher - Desktop */}
               <div className="flex items-center space-x-2 border-l border-gray-300 pl-6">
                 <button 
                   onClick={() => setLanguage('sv')} 
@@ -101,13 +101,39 @@ const HomePage = () => {
               </Button>
             </div>
 
-            {/* Mobile Menu Button */}
-            <button 
-              className="lg:hidden p-2 text-navy-800"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+            {/* Mobile: Language Switcher + Menu Button */}
+            <div className="lg:hidden flex items-center space-x-3">
+              {/* Mobile Language Switcher - Always Visible */}
+              <div className="flex items-center space-x-1 text-xs">
+                <Globe className="h-4 w-4 text-navy-700" />
+                <button 
+                  onClick={() => setLanguage('sv')} 
+                  className={`px-2 py-1 rounded transition-colors ${language === 'sv' ? 'bg-navy-800 text-white font-bold' : 'text-gray-600'}`}
+                >
+                  SV
+                </button>
+                <button 
+                  onClick={() => setLanguage('en')} 
+                  className={`px-2 py-1 rounded transition-colors ${language === 'en' ? 'bg-navy-800 text-white font-bold' : 'text-gray-600'}`}
+                >
+                  EN
+                </button>
+                <button 
+                  onClick={() => setLanguage('sr')} 
+                  className={`px-2 py-1 rounded transition-colors ${language === 'sr' ? 'bg-navy-800 text-white font-bold' : 'text-gray-600'}`}
+                >
+                  SR
+                </button>
+              </div>
+              
+              {/* Hamburger Menu Button */}
+              <button 
+                className="p-2 text-navy-800"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              >
+                {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
 
           {/* Mobile Navigation */}
