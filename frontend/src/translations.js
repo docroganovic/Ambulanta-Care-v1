@@ -12,8 +12,8 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
-      subtitle: 'Book a private home visit or video consultation directly with a licensed doctor and licensed district nurse. Patients pay the full cost of the visit; there is no affiliation with the public regional healthcare system.',
+      title: 'Private medical services in family and general medicine in Gothenburg.',
+      subtitle: 'Ambulanta Care offers private home visits or video consultations directly with a licensed doctor and a licensed district nurse. Patients pay the full cost of the visit; there is no affiliation with the public regional healthcare system.',
       languages: 'Consultations available in Swedish, English and Serbo‑Croatian.',
       bookAppointment: 'Book Appointment',
       learnMore: 'Learn More',
