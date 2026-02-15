@@ -46,6 +46,10 @@ export const translations = {
           description: 'Structured health assessments with clinical examination and targeted blood tests to evaluate your general health and to prevent future disease.'
         }
       ],
+      medicalCertificates: {
+        title: 'Medical Certificates and Sick Leave',
+        description: 'Various medical certificates and sick leave certificates, with sick leave up to 4 weeks depending on the condition. We do not renew long‑term sick leave certificates.'
+      },
       conditionsTitle: 'Management of Common Conditions',
       conditionsDescription: 'We manage a wide range of common conditions, including cardiovascular risk factors (hypertension, high cholesterol), type 2 diabetes, hypothyroidism, obesity, chronic migraine and other headaches, asthma, mild COPD, anxiety, sleep problems, gastrointestinal and musculoskeletal complaints.',
       conditionsDescription2: 'This includes acute infections such as respiratory and urinary tract infections, acute ear infections, sore throat including tonsillitis and sinusitis, as well as eye and simple gynaecological infections.'
