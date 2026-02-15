@@ -274,6 +274,23 @@ const HomePage = () => {
             })}
           </div>
 
+          {/* Medical Certificates Card - NEW */}
+          <div className="mb-16">
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-navy-100 w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <FileCheck className="h-8 w-8 text-navy-800" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-navy-900 mb-4">{t.services.medicalCertificates.title}</h3>
+                    <p className="text-gray-700 leading-relaxed">{t.services.medicalCertificates.description}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
           {/* Conditions Management */}
           <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 mb-16">
             <h3 className="text-2xl font-bold text-navy-900 mb-6">{t.services.conditionsTitle}</h3>
