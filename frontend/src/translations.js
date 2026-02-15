@@ -284,6 +284,7 @@ export const translations = {
     hero: {
       title: 'Ambulanta Care – Privatne medicinske usluge iz porodične i opšte medicine u Geteborgu.',
       subtitle: 'Zakažite privatnu kućnu posetu ili video konsultaciju direktno sa licenciranim lekarom i licenciranom medicinskom sestrom za rad u zajednici (district nurse). Pacijenti sami snose punu cenu pregleda; nema ugovora sa javnim regionalnim zdravstvenim sistemom.',
+      languages: 'Konsultacije su dostupne na švedskom, engleskom i srpskom.',
       bookAppointment: 'Zakažite termin',
       learnMore: 'Saznajte više',
       callUs: 'Pozovite nas danas'
