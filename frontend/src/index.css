@@ -25,7 +25,7 @@ code {
         --card-foreground: 0 0% 3.9%;
         --popover: 0 0% 100%;
         --popover-foreground: 0 0% 3.9%;
-        --primary: 0 0% 9%;
+        --primary: 218 100% 17%;
         --primary-foreground: 0 0% 98%;
         --secondary: 0 0% 96.1%;
         --secondary-foreground: 0 0% 9%;
@@ -37,13 +37,25 @@ code {
         --destructive-foreground: 0 0% 98%;
         --border: 0 0% 89.8%;
         --input: 0 0% 89.8%;
-        --ring: 0 0% 3.9%;
+        --ring: 218 100% 17%;
         --chart-1: 12 76% 61%;
         --chart-2: 173 58% 39%;
         --chart-3: 197 37% 24%;
         --chart-4: 43 74% 66%;
         --chart-5: 27 87% 67%;
         --radius: 0.5rem;
+        
+        /* Navy Blue Color Scale */
+        --navy-50: 210 100% 97%;
+        --navy-100: 210 100% 95%;
+        --navy-200: 210 95% 90%;
+        --navy-300: 210 90% 80%;
+        --navy-400: 215 85% 60%;
+        --navy-500: 218 85% 45%;
+        --navy-600: 218 90% 35%;
+        --navy-700: 218 95% 27%;
+        --navy-800: 218 100% 20%;
+        --navy-900: 218 100% 15%;
     }
     .dark {
         --background: 0 0% 3.9%;
@@ -52,8 +64,8 @@ code {
         --card-foreground: 0 0% 98%;
         --popover: 0 0% 3.9%;
         --popover-foreground: 0 0% 98%;
-        --primary: 0 0% 98%;
-        --primary-foreground: 0 0% 9%;
+        --primary: 218 100% 17%;
+        --primary-foreground: 0 0% 98%;
         --secondary: 0 0% 14.9%;
         --secondary-foreground: 0 0% 98%;
         --muted: 0 0% 14.9%;
@@ -64,7 +76,7 @@ code {
         --destructive-foreground: 0 0% 98%;
         --border: 0 0% 14.9%;
         --input: 0 0% 14.9%;
-        --ring: 0 0% 83.1%;
+        --ring: 218 100% 17%;
         --chart-1: 220 70% 50%;
         --chart-2: 160 60% 45%;
         --chart-3: 30 80% 55%;
