@@ -39,25 +39,7 @@
       );
     </script>
 
-    <-script src="https://assets.emergent.sh/scripts/emergent-main.js"><-/script>
-##
-    <-script>
-      if (window.self !== window.top) {
-        var debugMonitorScript = document.createElement("script");
-        debugMonitorScript.src =
-          "https://assets.emergent.sh/scripts/debug-monitor.js";
-        document.head.appendChild(debugMonitorScript);
-
-        window.tailwind = window.tailwind || {};
-        tailwind.config = {
-          corePlugins: { preflight: !1 },
-        };
-
-        var tailwindScript = document.createElement("script");
-        tailwindScript.src = "https://cdn.tailwindcss.com";
-        document.head.appendChild(tailwindScript);
-      }
-    <-/script>
+    
 
     <script
       defer="defer"
