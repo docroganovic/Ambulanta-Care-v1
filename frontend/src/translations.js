@@ -120,7 +120,8 @@ export const translations = {
       subtitle: 'We\'re here to answer your questions and provide the care you need',
       phone: 'Phone',
       email: 'Email',
-      address: 'Address'
+      address: 'Service Area',
+      addressText: 'We come to you in the Gothenburg area.'
     },
     
     // Footer
