@@ -261,9 +261,10 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Privat primärvård och hembesöksmedicin i Göteborg',
+      description: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
       quickLinks: 'Snabblänkar',
       contactInfo: 'Kontaktinformation',
+      location: 'Göteborg',
       copyright: 'Alla rättigheter förbehållna.'
     }
   },
