@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ambulanta-Care-v1/static/css/main.b83f6b06.css",
+    "main.js": "/Ambulanta-Care-v1/static/js/main.4caa6835.js",
+    "index.html": "/Ambulanta-Care-v1/index.html",
+    "main.b83f6b06.css.map": "/Ambulanta-Care-v1/static/css/main.b83f6b06.css.map",
+    "main.4caa6835.js.map": "/Ambulanta-Care-v1/static/js/main.4caa6835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b83f6b06.css",
+    "static/js/main.4caa6835.js"
+  ]
+}
