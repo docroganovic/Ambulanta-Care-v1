@@ -327,19 +327,21 @@ const HomePage = () => {
             </div>
           </div>
 
-          {/* Second Opinion Block */}
-          <div className="bg-navy-800 text-white rounded-2xl shadow-xl p-8 lg:p-12">
-            <div className="flex items-start space-x-4 mb-6">
-              <div className="bg-white/10 p-4 rounded-xl">
-                <FileText className="h-8 w-8 text-white" />
+          {/* Second Opinion Block - White Card Style */}
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300">
+            <CardContent className="p-8 lg:p-12">
+              <div className="flex items-start space-x-4">
+                <div className="bg-navy-100 p-4 rounded-xl flex-shrink-0">
+                  <FileText className="h-8 w-8 text-navy-800" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-navy-900 mb-4">{t.secondOpinion.title}</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">{t.secondOpinion.description}</p>
+                  <p className="text-gray-600 italic">{t.secondOpinion.languages}</p>
+                </div>
               </div>
-              <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-4">{t.secondOpinion.title}</h3>
-                <p className="text-white/90 leading-relaxed mb-4">{t.secondOpinion.description}</p>
-                <p className="text-white/80 italic">{t.secondOpinion.languages}</p>
-              </div>
-            </div>
-          </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
