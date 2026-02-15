@@ -114,6 +114,58 @@ code {
         border-left-width: inherit;
         border-right-width: inherit;
         border-top-width: inherit;
+
+/* Navy Blue Utilities */
+@layer utilities {
+  .text-navy-50 { color: hsl(var(--navy-50)); }
+  .text-navy-100 { color: hsl(var(--navy-100)); }
+  .text-navy-200 { color: hsl(var(--navy-200)); }
+  .text-navy-300 { color: hsl(var(--navy-300)); }
+  .text-navy-400 { color: hsl(var(--navy-400)); }
+  .text-navy-500 { color: hsl(var(--navy-500)); }
+  .text-navy-600 { color: hsl(var(--navy-600)); }
+  .text-navy-700 { color: hsl(var(--navy-700)); }
+  .text-navy-800 { color: hsl(var(--navy-800)); }
+  .text-navy-900 { color: hsl(var(--navy-900)); }
+  
+  .bg-navy-50 { background-color: hsl(var(--navy-50)); }
+  .bg-navy-100 { background-color: hsl(var(--navy-100)); }
+  .bg-navy-200 { background-color: hsl(var(--navy-200)); }
+  .bg-navy-300 { background-color: hsl(var(--navy-300)); }
+  .bg-navy-400 { background-color: hsl(var(--navy-400)); }
+  .bg-navy-500 { background-color: hsl(var(--navy-500)); }
+  .bg-navy-600 { background-color: hsl(var(--navy-600)); }
+  .bg-navy-700 { background-color: hsl(var(--navy-700)); }
+  .bg-navy-800 { background-color: hsl(var(--navy-800)); }
+  .bg-navy-900 { background-color: hsl(var(--navy-900)); }
+  
+  .border-navy-50 { border-color: hsl(var(--navy-50)); }
+  .border-navy-100 { border-color: hsl(var(--navy-100)); }
+  .border-navy-200 { border-color: hsl(var(--navy-200)); }
+  .border-navy-300 { border-color: hsl(var(--navy-300)); }
+  .border-navy-400 { border-color: hsl(var(--navy-400)); }
+  .border-navy-500 { border-color: hsl(var(--navy-500)); }
+  .border-navy-600 { border-color: hsl(var(--navy-600)); }
+  .border-navy-700 { border-color: hsl(var(--navy-700)); }
+  .border-navy-800 { border-color: hsl(var(--navy-800)); }
+  .border-navy-900 { border-color: hsl(var(--navy-900)); }
+  
+  .hover\:bg-navy-50:hover { background-color: hsl(var(--navy-50)); }
+  .hover\:bg-navy-900:hover { background-color: hsl(var(--navy-900)); }
+  .hover\:text-navy-700:hover { color: hsl(var(--navy-700)); }
+  .hover\:text-navy-800:hover { color: hsl(var(--navy-800)); }
+}
+
+/* Smooth transitions for interactive elements */
+button, a {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
         border-bottom-width: inherit;
         border-left-style: inherit;
         border-right-style: inherit;
